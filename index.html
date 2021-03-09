@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo brutForce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Test d'un algorithme de brutForce en JavaScript</h1>
+    <div class="container">
+        <div>
+            <label for='inputPass'>Entrer le mot de passe qui doit être trouvé par l'algo :</label>
+            <p>(minimum deux caractères)</p>
+            <input type='text' id='inputPass'>            
+            <button type="button" id="execute">Lancer l'analyse</button>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <div>Temps : <span id="time"></span></div>
+            <div id="contentPass"></div>
+        </div>
+        <p>Attention ! si le mot de passe est long , cela peut prendre beaucoup de temps et de mémoire vive à cause de sa complexité algo ...</p>
+    </div>    
+</body>
+</html>

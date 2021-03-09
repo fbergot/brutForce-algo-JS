@@ -1,0 +1,14 @@
+{
+  "name": "brut-force",
+  "version": "0.1.0",
+  "description": "Small javaScript algo brutforce",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "florian.bergot564@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
